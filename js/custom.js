@@ -153,6 +153,8 @@ $(".dish-col").mouseover(function(){
 
     $(this).find("p a").css("color", "rgba(69,125,130,1)");
 
+    $(this).find("img").css("filter", "opacity(.3)");
+
 
 });
 
@@ -161,6 +163,8 @@ $(".dish-col").mouseout(function(){
     $(this).find("h2, p").css("color", "rgba(0,0,0,0)");
 
     $(this).find("p a").css("color", "rgba(69,125,130,0)");
+
+    $(this).find("img").css("filter", "opacity(1)");
 
 });
 
