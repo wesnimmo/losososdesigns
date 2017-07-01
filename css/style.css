@@ -314,10 +314,10 @@ text is transparent, and made visible with jquery*/
     font-weight: 700;
 }
 
-#work .dish-col:hover img {
+/*#work .dish-col:hover img {
     -webkit-filter: opacity(.3);
   filter: opacity(.3);
-}
+}*/
 
 
 #work img {
