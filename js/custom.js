@@ -149,13 +149,18 @@ $(function(){
 
 $(".dish-col").mouseover(function(){
 
-    $(this).find(".work-desc h2, .work-desc p").css("color", "rgba(0,0,0,1)");
+    $(this).find("h2, p").css("color", "rgba(0,0,0,1)");
+
+    $(this).find("p a").css("color", "rgba(69,125,130,1)");
+
 
 });
 
 $(".dish-col").mouseout(function(){
 
-    $(this).find(".work-desc h2, .work-desc p").css("color", "rgba(0,0,0,0)");
+    $(this).find("h2, p").css("color", "rgba(0,0,0,0)");
+
+    $(this).find("p a").css("color", "rgba(69,125,130,0)");
 
 });
 
