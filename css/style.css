@@ -218,7 +218,7 @@ h3 {
 #about-bg-diagonal {
 	width: 60%;
     height: 700px;
-    background-image: url('../img/me1.jpg');
+    background-image: url('../img/me2.png');
     float: right;
     border-left: 200px solid white;
     border-top: 700px solid transparent;
@@ -309,7 +309,7 @@ text is transparent, and made visible with jquery*/
 @media only screen and (max-width: 767px) {
     .work-desc {
         
-        bottom: 15%;
+        bottom: 10%;
     }
 }
 
