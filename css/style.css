@@ -301,7 +301,7 @@ text is transparent, and made visible with jquery*/
    position: absolute;
     bottom: 0%;
     left: 0%;
-    height: 120%;
+    height: 100%;
     padding: 40% 10% 0 10%;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -310,6 +310,13 @@ text is transparent, and made visible with jquery*/
     .work-desc {
         
         bottom: 15%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 879px) {
+    .work-desc {
+        
+        bottom: 20%;
     }
 }
 
