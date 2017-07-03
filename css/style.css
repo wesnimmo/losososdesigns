@@ -313,7 +313,7 @@ text is transparent, and made visible with jquery*/
 @media only screen and (max-width: 767px) {
     .work-desc {
         
-        bottom: 10%;
+        bottom: 20%;
     }
 }
 
