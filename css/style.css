@@ -334,10 +334,12 @@ text is transparent, and made visible with jquery*/
     font-weight: 700;
 }
 
-.work-desc p a {
+.work-desc a {
+    display: block;
     color: rgba(69,125,130,0);
     transition: all 2s ease;
     font-weight: 700;
+    text-align: center;
 }
 
 /*#work .dish-col:hover img {
